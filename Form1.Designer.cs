@@ -1,7 +1,7 @@
 ﻿
 namespace TestinSouceControle
 {
-    partial class Form1
+    partial class testing
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace TestinSouceControle
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // testing
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "testing";
+            this.Text = "SourceControleTest";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

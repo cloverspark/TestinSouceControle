@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TestinSouceControle
 {
-    public partial class Form1 : Form
+    public partial class testing : Form
     {
-        public Form1()
+        public testing()
         {
             InitializeComponent();
         }
