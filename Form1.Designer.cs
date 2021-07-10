@@ -54,7 +54,6 @@ namespace TestinSouceControle
             this.Btn1.TabIndex = 1;
             this.Btn1.Text = "add";
             this.Btn1.UseVisualStyleBackColor = true;
-            this.Btn1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Btn2
             // 
@@ -64,7 +63,6 @@ namespace TestinSouceControle
             this.Btn2.TabIndex = 2;
             this.Btn2.Text = "add 1,2";
             this.Btn2.UseVisualStyleBackColor = true;
-            this.Btn2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Btn3
             // 
@@ -74,7 +72,6 @@ namespace TestinSouceControle
             this.Btn3.TabIndex = 3;
             this.Btn3.Text = "add all";
             this.Btn3.UseVisualStyleBackColor = true;
-            this.Btn3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Lbcounter2
             // 
@@ -107,6 +104,7 @@ namespace TestinSouceControle
             this.Controls.Add(this.Lbcounter1);
             this.Name = "testing";
             this.Text = "SourceControleTest";
+            this.Load += new System.EventHandler(this.testing_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
