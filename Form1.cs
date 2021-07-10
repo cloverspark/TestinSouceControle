@@ -26,5 +26,29 @@ namespace TestinSouceControle
             Lbcounter2.Text = count2.ToString();
             Lbcounter3.Text = count3.ToString();
         }
+
+        private void Btn1_Click(object sender, EventArgs e)
+        {
+            count1++;
+            Lbcounter1.Text = count1.ToString();
+        }
+
+        private void Btn2_Click(object sender, EventArgs e)
+        {
+            count1++;
+            count2++;
+            Lbcounter1.Text = count1.ToString();
+            Lbcounter2.Text = count2.ToString();
+        }
+
+        private void Btn3_Click(object sender, EventArgs e)
+        {
+            count1++;
+            count2++;
+            count3++;
+            Lbcounter1.Text = count1.ToString();
+            Lbcounter2.Text = count2.ToString();
+            Lbcounter3.Text = count3.ToString();
+        }
     }
 }
