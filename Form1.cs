@@ -22,23 +22,20 @@ namespace TestinSouceControle
 
         private void testing_Load(object sender, EventArgs e)
         {
-            Lbcounter1.Text = count1.ToString();
-            Lbcounter2.Text = count2.ToString();
-            Lbcounter3.Text = count3.ToString();
+            results();
         }
 
         private void Btn1_Click(object sender, EventArgs e)
         {
             count1++;
-            Lbcounter1.Text = count1.ToString();
+            results();
         }
 
         private void Btn2_Click(object sender, EventArgs e)
         {
             count1++;
             count2++;
-            Lbcounter1.Text = count1.ToString();
-            Lbcounter2.Text = count2.ToString();
+            results();
         }
 
         private void Btn3_Click(object sender, EventArgs e)
@@ -46,6 +43,11 @@ namespace TestinSouceControle
             count1++;
             count2++;
             count3++;
+            results();
+        }
+        public void results()
+        {
+           
             Lbcounter1.Text = count1.ToString();
             Lbcounter2.Text = count2.ToString();
             Lbcounter3.Text = count3.ToString();
